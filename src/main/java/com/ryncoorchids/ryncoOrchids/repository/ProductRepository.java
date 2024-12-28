@@ -19,4 +19,6 @@ public interface ProductRepository extends JpaRepository<PlantsDetails,Long> {
 
 
     List<PlantsDetails> findAllByOrderByDateDesc(Pageable pageable);
+
+
 }
